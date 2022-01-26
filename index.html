@@ -110,35 +110,38 @@
 
             <form class="formulario">
                 <fieldset>
-                    <div>
-                        <legend>Completa todos los campos</legend>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Tu Nombre">
-                    </div>
+                    <legend>Completa todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input  class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
 
-                    <div>
-                        <label>Teléfono</label>
-                        <input type="tel" placeholder="Tu Teléfono">
-                    </div>
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input  class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
 
-                    <div>
-                        <label>Correo</label>
-                        <input type="email" placeholder="Tu Correo">
-                    </div>
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input  class="input-text" type="email" placeholder="Tu Correo">
+                        </div>
 
-                    <div>
-                        <label>Mensaje</label>
-                        <textarea></textarea>
-                        <input type="submit" value="Enviar">
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div>  
+                    <div class="enviar">
+                        <input class="boton" type="submit" value="Enviar">
                     </div>
-                    
                     
                 </fieldset>
             </form>
 
         </section>
     </main> 
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados</p>
     </footer>
     
